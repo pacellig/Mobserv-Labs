@@ -1,0 +1,23 @@
+- explain how the application starts and interact with the files in www?
+The www folder in the root folder of the project contains the global files for all platforms. This is the folder that must be edited.
+www/index.html is the entry point for the application
+
+- how to create release version
+command build --release
+
+- raw, xml, json
+
+for the raw format, datas are simply passed as a string, so in order to be accessed the string needs to be sliced and then we need to know the position of th einformation we need within the string
+
+for xml datas are packed within tags, so we need to know the tag name to access specific data
+
+for json we have a set of key/value pairs, and we can access to the information desired by providing the related key
+
+- rest and soap
+
+SOAP (Simple Object Access Protocol) is a messaging protocol that allows programs that run on disparate operating systems (such as Windows and Linux) to communicate using Hypertext Transfer Protocol (HTTP) and its Extensible Markup Language (XML)
+SOAP relies exclusively on XML to provide messaging services
+
+REST stands for Representational State Transfer. (It is sometimes spelled "ReST".) It relies on a stateless, client-server, cacheable communications protocol -- and in virtually all cases, the HTTP protocol is used. REST is an architecture style for designing networked applications
+Instead of using XML to make a request, REST relies on a simple URL in many cases
+REST is protocol independent. It's not coupled to HTTP. Pretty much like you can follow an ftp link on a website, a REST application can use any protocol for which there is an standardized URI scheme.

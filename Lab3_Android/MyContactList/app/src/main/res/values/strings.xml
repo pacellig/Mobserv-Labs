@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyContactList</string>
+    <string name="title_activity_modify_contact">ModifyContactActivity</string>
+</resources>

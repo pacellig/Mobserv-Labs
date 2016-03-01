@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65443B061BE8EF7900CDCDAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65443B051BE8EF7900CDCDAB /* main.m */; };
+		65443B091BE8EF7900CDCDAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65443B081BE8EF7900CDCDAB /* AppDelegate.m */; };
+		65443B0C1BE8EF7900CDCDAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65443B0B1BE8EF7900CDCDAB /* ViewController.m */; };
+		65443B0F1BE8EF7900CDCDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65443B0D1BE8EF7900CDCDAB /* Main.storyboard */; };
+		65443B111BE8EF7900CDCDAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65443B101BE8EF7900CDCDAB /* Images.xcassets */; };
+		65443B141BE8EF7900CDCDAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65443B121BE8EF7900CDCDAB /* LaunchScreen.xib */; };
+		65443B201BE8EF7900CDCDAB /* BabyGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65443B1F1BE8EF7900CDCDAB /* BabyGameTests.m */; };
+		65443B441BE8F13F00CDCDAB /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 65443B3B1BE8F13F00CDCDAB /* Button.png */; };
+		65443B451BE8F13F00CDCDAB /* ButtonSlot.png in Resources */ = {isa = PBXBuildFile; fileRef = 65443B3C1BE8F13F00CDCDAB /* ButtonSlot.png */; };
+		65443B461BE8F13F00CDCDAB /* Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 65443B3D1BE8F13F00CDCDAB /* Circle.png */; };
+		65443B471BE8F13F00CDCDAB /* GameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 65443B3E1BE8F13F00CDCDAB /* GameBackground.png */; };
+		65443B481BE8F13F00CDCDAB /* Oval.png in Resources */ = {isa = PBXBuildFile; fileRef = 65443B3F1BE8F13F00CDCDAB /* Oval.png */; };
+		65443B491BE8F13F00CDCDAB /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 65443B401BE8F13F00CDCDAB /* Rectangle.png */; };
+		65443B4A1BE8F13F00CDCDAB /* Slots.png in Resources */ = {isa = PBXBuildFile; fileRef = 65443B411BE8F13F00CDCDAB /* Slots.png */; };
+		65443B4B1BE8F13F00CDCDAB /* Square.png in Resources */ = {isa = PBXBuildFile; fileRef = 65443B421BE8F13F00CDCDAB /* Square.png */; };
+		65443B4C1BE8F13F00CDCDAB /* Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 65443B431BE8F13F00CDCDAB /* Triangle.png */; };
+		91442ED11C021D4E0074D0F5 /* coccodrillo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91442ED01C021D4E0074D0F5 /* coccodrillo.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65443B1A1BE8EF7900CDCDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65443AF81BE8EF7900CDCDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65443AFF1BE8EF7900CDCDAB;
+			remoteInfo = BabyGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65443B001BE8EF7900CDCDAB /* BabyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65443B041BE8EF7900CDCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65443B051BE8EF7900CDCDAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65443B071BE8EF7900CDCDAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65443B081BE8EF7900CDCDAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65443B0A1BE8EF7900CDCDAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65443B0B1BE8EF7900CDCDAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65443B0E1BE8EF7900CDCDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65443B101BE8EF7900CDCDAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65443B131BE8EF7900CDCDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		65443B191BE8EF7900CDCDAB /* BabyGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65443B1E1BE8EF7900CDCDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65443B1F1BE8EF7900CDCDAB /* BabyGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyGameTests.m; sourceTree = "<group>"; };
+		65443B3B1BE8F13F00CDCDAB /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		65443B3C1BE8F13F00CDCDAB /* ButtonSlot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSlot.png; sourceTree = "<group>"; };
+		65443B3D1BE8F13F00CDCDAB /* Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle.png; sourceTree = "<group>"; };
+		65443B3E1BE8F13F00CDCDAB /* GameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackground.png; sourceTree = "<group>"; };
+		65443B3F1BE8F13F00CDCDAB /* Oval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oval.png; sourceTree = "<group>"; };
+		65443B401BE8F13F00CDCDAB /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle.png; sourceTree = "<group>"; };
+		65443B411BE8F13F00CDCDAB /* Slots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slots.png; sourceTree = "<group>"; };
+		65443B421BE8F13F00CDCDAB /* Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Square.png; sourceTree = "<group>"; };
+		65443B431BE8F13F00CDCDAB /* Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle.png; sourceTree = "<group>"; };
+		91442ED01C021D4E0074D0F5 /* coccodrillo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = coccodrillo.mp3; path = ../../coccodrillo.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65443AFD1BE8EF7900CDCDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65443B161BE8EF7900CDCDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65443AF71BE8EF7900CDCDAB = {
+			isa = PBXGroup;
+			children = (
+				65443B021BE8EF7900CDCDAB /* BabyGame */,
+				65443B1C1BE8EF7900CDCDAB /* BabyGameTests */,
+				65443B011BE8EF7900CDCDAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65443B011BE8EF7900CDCDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65443B001BE8EF7900CDCDAB /* BabyGame.app */,
+				65443B191BE8EF7900CDCDAB /* BabyGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65443B021BE8EF7900CDCDAB /* BabyGame */ = {
+			isa = PBXGroup;
+			children = (
+				65443B071BE8EF7900CDCDAB /* AppDelegate.h */,
+				65443B081BE8EF7900CDCDAB /* AppDelegate.m */,
+				65443B0A1BE8EF7900CDCDAB /* ViewController.h */,
+				65443B0B1BE8EF7900CDCDAB /* ViewController.m */,
+				65443B0D1BE8EF7900CDCDAB /* Main.storyboard */,
+				65443B101BE8EF7900CDCDAB /* Images.xcassets */,
+				65443B121BE8EF7900CDCDAB /* LaunchScreen.xib */,
+				65443B031BE8EF7900CDCDAB /* Supporting Files */,
+			);
+			path = BabyGame;
+			sourceTree = "<group>";
+		};
+		65443B031BE8EF7900CDCDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91442ED01C021D4E0074D0F5 /* coccodrillo.mp3 */,
+				65443B3B1BE8F13F00CDCDAB /* Button.png */,
+				65443B3C1BE8F13F00CDCDAB /* ButtonSlot.png */,
+				65443B3D1BE8F13F00CDCDAB /* Circle.png */,
+				65443B3E1BE8F13F00CDCDAB /* GameBackground.png */,
+				65443B3F1BE8F13F00CDCDAB /* Oval.png */,
+				65443B401BE8F13F00CDCDAB /* Rectangle.png */,
+				65443B411BE8F13F00CDCDAB /* Slots.png */,
+				65443B421BE8F13F00CDCDAB /* Square.png */,
+				65443B431BE8F13F00CDCDAB /* Triangle.png */,
+				65443B041BE8EF7900CDCDAB /* Info.plist */,
+				65443B051BE8EF7900CDCDAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65443B1C1BE8EF7900CDCDAB /* BabyGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				65443B1F1BE8EF7900CDCDAB /* BabyGameTests.m */,
+				65443B1D1BE8EF7900CDCDAB /* Supporting Files */,
+			);
+			path = BabyGameTests;
+			sourceTree = "<group>";
+		};
+		65443B1D1BE8EF7900CDCDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65443B1E1BE8EF7900CDCDAB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65443AFF1BE8EF7900CDCDAB /* BabyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65443B231BE8EF7900CDCDAB /* Build configuration list for PBXNativeTarget "BabyGame" */;
+			buildPhases = (
+				65443AFC1BE8EF7900CDCDAB /* Sources */,
+				65443AFD1BE8EF7900CDCDAB /* Frameworks */,
+				65443AFE1BE8EF7900CDCDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyGame;
+			productName = BabyGame;
+			productReference = 65443B001BE8EF7900CDCDAB /* BabyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65443B181BE8EF7900CDCDAB /* BabyGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65443B261BE8EF7900CDCDAB /* Build configuration list for PBXNativeTarget "BabyGameTests" */;
+			buildPhases = (
+				65443B151BE8EF7900CDCDAB /* Sources */,
+				65443B161BE8EF7900CDCDAB /* Frameworks */,
+				65443B171BE8EF7900CDCDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65443B1B1BE8EF7900CDCDAB /* PBXTargetDependency */,
+			);
+			name = BabyGameTests;
+			productName = BabyGameTests;
+			productReference = 65443B191BE8EF7900CDCDAB /* BabyGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65443AF81BE8EF7900CDCDAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = eurecom;
+				TargetAttributes = {
+					65443AFF1BE8EF7900CDCDAB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					65443B181BE8EF7900CDCDAB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 65443AFF1BE8EF7900CDCDAB;
+					};
+				};
+			};
+			buildConfigurationList = 65443AFB1BE8EF7900CDCDAB /* Build configuration list for PBXProject "BabyGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65443AF71BE8EF7900CDCDAB;
+			productRefGroup = 65443B011BE8EF7900CDCDAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65443AFF1BE8EF7900CDCDAB /* BabyGame */,
+				65443B181BE8EF7900CDCDAB /* BabyGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65443AFE1BE8EF7900CDCDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65443B4B1BE8F13F00CDCDAB /* Square.png in Resources */,
+				65443B4C1BE8F13F00CDCDAB /* Triangle.png in Resources */,
+				65443B0F1BE8EF7900CDCDAB /* Main.storyboard in Resources */,
+				65443B4A1BE8F13F00CDCDAB /* Slots.png in Resources */,
+				65443B461BE8F13F00CDCDAB /* Circle.png in Resources */,
+				65443B491BE8F13F00CDCDAB /* Rectangle.png in Resources */,
+				91442ED11C021D4E0074D0F5 /* coccodrillo.mp3 in Resources */,
+				65443B471BE8F13F00CDCDAB /* GameBackground.png in Resources */,
+				65443B451BE8F13F00CDCDAB /* ButtonSlot.png in Resources */,
+				65443B441BE8F13F00CDCDAB /* Button.png in Resources */,
+				65443B481BE8F13F00CDCDAB /* Oval.png in Resources */,
+				65443B141BE8EF7900CDCDAB /* LaunchScreen.xib in Resources */,
+				65443B111BE8EF7900CDCDAB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65443B171BE8EF7900CDCDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65443AFC1BE8EF7900CDCDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65443B0C1BE8EF7900CDCDAB /* ViewController.m in Sources */,
+				65443B091BE8EF7900CDCDAB /* AppDelegate.m in Sources */,
+				65443B061BE8EF7900CDCDAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65443B151BE8EF7900CDCDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65443B201BE8EF7900CDCDAB /* BabyGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65443B1B1BE8EF7900CDCDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65443AFF1BE8EF7900CDCDAB /* BabyGame */;
+			targetProxy = 65443B1A1BE8EF7900CDCDAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65443B0D1BE8EF7900CDCDAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65443B0E1BE8EF7900CDCDAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65443B121BE8EF7900CDCDAB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65443B131BE8EF7900CDCDAB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65443B211BE8EF7900CDCDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65443B221BE8EF7900CDCDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65443B241BE8EF7900CDCDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabyGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65443B251BE8EF7900CDCDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabyGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65443B271BE8EF7900CDCDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BabyGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyGame.app/BabyGame";
+			};
+			name = Debug;
+		};
+		65443B281BE8EF7900CDCDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BabyGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyGame.app/BabyGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65443AFB1BE8EF7900CDCDAB /* Build configuration list for PBXProject "BabyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65443B211BE8EF7900CDCDAB /* Debug */,
+				65443B221BE8EF7900CDCDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65443B231BE8EF7900CDCDAB /* Build configuration list for PBXNativeTarget "BabyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65443B241BE8EF7900CDCDAB /* Debug */,
+				65443B251BE8EF7900CDCDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65443B261BE8EF7900CDCDAB /* Build configuration list for PBXNativeTarget "BabyGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65443B271BE8EF7900CDCDAB /* Debug */,
+				65443B281BE8EF7900CDCDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65443AF81BE8EF7900CDCDAB /* Project object */;
+}

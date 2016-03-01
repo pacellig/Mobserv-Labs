@@ -1,0 +1,11 @@
+1.
+Yes, we could have used a different onClick() function for each one of the intents.
+
+2.
+in this laboratory session we mainly focused on activities and intents.
+An activity is like the presentation layer for the application, an activity represents one of the screens of the application.
+An intent is used for passing messages through the activities, they work like asynchronous messages. 
+IE, the intents can be used to delegate actions to other activities that can belong to a different application.
+In our app, we used them for open an url caling the browser , call a number through the system app, searching something on the map and so on.
+
+3. 4. Developed in code

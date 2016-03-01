@@ -1,0 +1,95 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#E4E4E4;
+    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;	
+  }
+  
+.app {
+    position:absolute;             /* position in the center of the screen */
+    left:0%;
+    top:5%;
+    height:90%;                   /* text area height */
+    width:90%;                   /* text area width */
+    text-align:center;
+    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:2px 2px 2px 2px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+
+.app h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+
+.app input  {
+ padding:3px;
+ border:1px solid #dcdcdc;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+
+
+.app .btn {
+  	border: 1px solid #555;
+  	-webkit-border-radius: 5px;
+  	border-radius: 5px;
+  	text-align:center;
+  	display:inline;
+/*  	float:left; */
+  	background:#444;
+  	width:70px; 
+  	color:#9ab;
+  	font-size:1.1em;
+  	text-decoration:none;
+  	padding:5px;
+  	margin:3px 0px 3px 5px;
+  }
+  
+.app .btn-large {
+	with: 150px; 
+	position: relative;
+  	left:45%;
+  	margin:10px 0px 0px 10px ;
+  	padding:4px; 
+  	display: block;
+  }
+
+.app h3 {
+    font-size:16px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:15px;
+    text-align:center;
+   
+}
+

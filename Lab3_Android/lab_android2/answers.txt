@@ -1,0 +1,25 @@
+--- IMPLICIT INTENT
+1.
+Yes, we could have used a different onClick() function for each one of the intents.
+
+2.
+in this laboratory session we mainly focused on activities and intents.
+An activity is like the presentation layer for the application, an activity represents one of the screens of the application.
+An intent is used for passing messages through the activities, they work like asynchronous messages. 
+IE, the intents can be used to delegate actions to other activities that can belong to a different application.
+In our app, we used them for open an url caling the browser , call a number through the system app, searching something on the map and so on.
+
+3. 4. Developed in code
+
+-- HELLOPREFERENCES
+1.
+The preference class is called through the preference manager.
+
+2. 3.
+developed in code
+
+4.
+We could split the main view of the activity in various fragments, making for example, appear the preferences in a fragment only if the user clicks the appropriate button.
+
+6.
+mainly in applications that need the use of settings, such as password or interface preferences.

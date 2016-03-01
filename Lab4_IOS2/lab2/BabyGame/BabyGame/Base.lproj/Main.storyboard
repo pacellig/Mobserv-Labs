@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Slots.png" translatesAutoresizingMaskIntoConstraints="NO" id="m8A-MC-Szm">
+                                <rect key="frame" x="59" y="300" width="276" height="280"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Oval.png" translatesAutoresizingMaskIntoConstraints="NO" id="IJm-9t-9MF" userLabel="Image View ovale">
+                                <rect key="frame" x="80" y="409" width="77" height="106"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Square.png" translatesAutoresizingMaskIntoConstraints="NO" id="XMO-6J-Ylh" userLabel="Image View quadrato">
+                                <rect key="frame" x="239" y="454" width="72" height="71"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Triangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="xgY-FI-Kay">
+                                <rect key="frame" x="153" y="360" width="88" height="77"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Rectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="dAu-wY-PK4" userLabel="Image View rettangolo">
+                                <rect key="frame" x="165" y="448" width="66" height="116"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wN-mf-P75" userLabel="Button rec">
+                                <rect key="frame" x="59" y="56" width="71" height="113"/>
+                                <animations/>
+                                <state key="normal" image="Rectangle.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="Rectangle.png"/>
+                                <connections>
+                                    <action selector="buttonMoved:withEvent:" destination="vXZ-lx-hvc" eventType="touchDragInside" id="65k-T8-QGB"/>
+                                    <action selector="buttonPressed:" destination="vXZ-lx-hvc" eventType="touchDown" id="XGr-Tk-9aO"/>
+                                    <action selector="buttonReleased:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="f0F-VD-Wcw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkm-aK-e5D" userLabel="Button ov">
+                                <rect key="frame" x="263" y="51" width="75" height="106"/>
+                                <animations/>
+                                <state key="normal" image="Oval.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="Oval.png"/>
+                                <connections>
+                                    <action selector="buttonMoved:withEvent:" destination="vXZ-lx-hvc" eventType="touchDragInside" id="qon-xv-TdB"/>
+                                    <action selector="buttonPressed:" destination="vXZ-lx-hvc" eventType="touchDown" id="2tm-Og-SuB"/>
+                                    <action selector="buttonReleased:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kft-kz-Otv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3q-3D-gqE" userLabel="Button tri">
+                                <rect key="frame" x="100" y="186" width="83" height="74"/>
+                                <animations/>
+                                <state key="normal" image="Triangle.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="Triangle.png"/>
+                                <connections>
+                                    <action selector="buttonMoved:withEvent:" destination="vXZ-lx-hvc" eventType="touchDragInside" id="nag-DT-Xw7"/>
+                                    <action selector="buttonPressed:" destination="vXZ-lx-hvc" eventType="touchDown" id="htT-xw-4FJ"/>
+                                    <action selector="buttonReleased:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jdD-np-TNB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3H-Ih-69d" userLabel="Button cir">
+                                <rect key="frame" x="219" y="186" width="69" height="68"/>
+                                <animations/>
+                                <state key="normal" image="Circle.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="Circle.png"/>
+                                <connections>
+                                    <action selector="buttonMoved:withEvent:" destination="vXZ-lx-hvc" eventType="touchDragInside" id="OBT-Zl-TBV"/>
+                                    <action selector="buttonPressed:" destination="vXZ-lx-hvc" eventType="touchDown" id="nKU-O6-kC1"/>
+                                    <action selector="buttonReleased:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="15r-n1-CpG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVW-IW-9wj" userLabel="Button sq">
+                                <rect key="frame" x="164" y="92" width="70" height="70"/>
+                                <animations/>
+                                <state key="normal" image="Square.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="Square.png"/>
+                                <connections>
+                                    <action selector="buttonMoved:withEvent:" destination="vXZ-lx-hvc" eventType="touchDragInside" id="yqP-8g-tH1"/>
+                                    <action selector="buttonPressed:" destination="vXZ-lx-hvc" eventType="touchDown" id="cHT-Gl-E4m"/>
+                                    <action selector="buttonReleased:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gni-M6-lDG"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Circle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Edn-mR-04Q">
+                                <rect key="frame" x="247" y="314" width="74" height="75"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m8A-MC-Szm" firstAttribute="leading" secondItem="IJm-9t-9MF" secondAttribute="trailing" constant="-98" id="0ZF-ar-Arg"/>
+                            <constraint firstItem="m8A-MC-Szm" firstAttribute="top" secondItem="xgY-FI-Kay" secondAttribute="bottom" constant="-137" id="9WM-xa-5qi"/>
+                            <constraint firstItem="XMO-6J-Ylh" firstAttribute="leading" secondItem="m8A-MC-Szm" secondAttribute="trailing" constant="-96" id="Gbf-AX-Qx5"/>
+                            <constraint firstItem="XMO-6J-Ylh" firstAttribute="top" secondItem="m8A-MC-Szm" secondAttribute="bottom" constant="-126" id="PPr-fs-n6P"/>
+                            <constraint firstItem="m8A-MC-Szm" firstAttribute="top" secondItem="Edn-mR-04Q" secondAttribute="bottom" constant="-89" id="WNf-K7-0yr"/>
+                            <constraint firstItem="dAu-wY-PK4" firstAttribute="top" secondItem="m8A-MC-Szm" secondAttribute="bottom" constant="-132" id="bcE-BQ-Fwz"/>
+                            <constraint firstItem="IJm-9t-9MF" firstAttribute="top" secondItem="m8A-MC-Szm" secondAttribute="bottom" constant="-171" id="dhZ-q2-oKX"/>
+                            <constraint firstItem="dAu-wY-PK4" firstAttribute="leading" secondItem="m8A-MC-Szm" secondAttribute="trailing" constant="-170" id="hcO-Y2-cGL"/>
+                            <constraint firstItem="xgY-FI-Kay" firstAttribute="leading" secondItem="m8A-MC-Szm" secondAttribute="trailing" constant="-182" id="lbw-Po-zZN"/>
+                            <constraint firstItem="Edn-mR-04Q" firstAttribute="leading" secondItem="m8A-MC-Szm" secondAttribute="trailing" constant="-88" id="vfm-68-THe"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="circle" destination="L3H-Ih-69d" id="Jyg-em-dIQ"/>
+                        <outlet property="iCircle" destination="Edn-mR-04Q" id="5Ru-Ii-F3h"/>
+                        <outlet property="iOval" destination="IJm-9t-9MF" id="MiQ-D4-fQq"/>
+                        <outlet property="iRectangle" destination="dAu-wY-PK4" id="Du2-EG-jhC"/>
+                        <outlet property="iSquare" destination="XMO-6J-Ylh" id="8ES-0i-wb3"/>
+                        <outlet property="iTriangle" destination="xgY-FI-Kay" id="2se-SG-vO0"/>
+                        <outlet property="oval" destination="xkm-aK-e5D" id="fG3-Ja-MAa"/>
+                        <outlet property="rectangle" destination="5wN-mf-P75" id="eoO-EU-QeX"/>
+                        <outlet property="slot" destination="m8A-MC-Szm" id="y57-On-EDw"/>
+                        <outlet property="square" destination="UVW-IW-9wj" id="52T-4D-TSt"/>
+                        <outlet property="triangle" destination="i3q-3D-gqE" id="6lM-GT-gDB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Circle.png" width="69" height="68"/>
+        <image name="Oval.png" width="75" height="106"/>
+        <image name="Rectangle.png" width="71" height="113"/>
+        <image name="Slots.png" width="276" height="280"/>
+        <image name="Square.png" width="70" height="70"/>
+        <image name="Triangle.png" width="83" height="74"/>
+    </resources>
+</document>

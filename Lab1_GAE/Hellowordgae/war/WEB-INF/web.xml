@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Hellowordgae</servlet-name>
+		<servlet-class>eurecom.fr.helloworldgae.HellowordgaeServlet</servlet-class>
+	</servlet>
+		<!-- HelloMoon Servlet -->
+		<servlet>
+		<servlet-name>Hellomoongae</servlet-name>
+		<servlet-class>eurecom.fr.helloworldgae.HellomoongaeServlet</servlet-class>
+		</servlet>
+		<!-- SaveContactServlet Servlet -->
+		<servlet>
+		<servlet-name>SaveContact</servlet-name>
+		<servlet-class>eurecom.fr.helloworldgae.SaveContactServlet</servlet-class>
+		</servlet>
+		<!-- ContactDeleteServlet Servlet -->
+		<servlet>
+		<servlet-name>ContactDelete</servlet-name>
+		<servlet-class>eurecom.fr.helloworldgae.ContactDeleteServlet</servlet-class>
+		</servlet>
+		<!-- ContactListServlet Servlet -->
+		<servlet>
+		<servlet-name>ContactList</servlet-name>
+		<servlet-class>eurecom.fr.helloworldgae.ContactListServlet</servlet-class>
+		</servlet>
+		<!-- ContactDetailsServlet Servlet -->
+		<servlet>
+		<servlet-name>ContactDetails</servlet-name>
+		<servlet-class>eurecom.fr.helloworldgae.ContactDetailsServlet</servlet-class>
+		</servlet>
+	<servlet-mapping>
+		<servlet-name>Hellowordgae</servlet-name>
+		<url-pattern>/hellowordgae</url-pattern>
+	</servlet-mapping>
+		<!-- HelloMoon pattern/servlet -->
+		<servlet-mapping>
+		<servlet-name>Hellomoongae</servlet-name>
+		<url-pattern>/hellomoongae</url-pattern>
+		</servlet-mapping>
+		<!-- SaveContactServlet pattern/servlet -->
+		<servlet-mapping>
+		<servlet-name>SaveContact</servlet-name>
+		<url-pattern>/save</url-pattern>
+		</servlet-mapping>
+		<!-- ContactListServlet pattern/servlet -->
+		<servlet-mapping>
+		<servlet-name>ContactList</servlet-name>
+		<url-pattern>/contactlist</url-pattern>
+		</servlet-mapping>
+		<!-- ContactDetailsServlet pattern/servlet -->
+		<servlet-mapping>
+		<servlet-name>ContactDetails</servlet-name>
+		<url-pattern>/contactdetails</url-pattern>
+		</servlet-mapping>
+		<!-- ContactDeleteServlet pattern/servlet -->
+		<servlet-mapping>
+		<servlet-name>ContactDelete</servlet-name>
+		<url-pattern>/delete</url-pattern>
+		</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

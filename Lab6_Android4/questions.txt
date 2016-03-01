@@ -1,0 +1,3 @@
+1.
+Broadcast Receiver simply responds to broadcast messages from other applications or from the system itself.
+A filter is an expression in an app's manifest file that specifies the type of intents that the component would like to receive. 
